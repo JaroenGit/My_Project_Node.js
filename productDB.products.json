@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "68510866e6faf4c11cce87fc"
+  },
+  "name": "White Crew Neck T-Shirt",
+  "price": 300,
+  "size": "S / M / L / XL / XXL (Please refer to size chart for best fit)",
+  "image": "1750141772621.jpg",
+  "description": "Elevate your everyday look with our White Crew Neck T-Shirt – a wardrobe essential designed for maximum comfort and effortless style. Made from soft, breathable fabric, this tee is perfect for casual days, work-from-home setups, or layering under jackets and outerwear. Clean, minimal, and versatile – just the way a perfect t-shirt should be.",
+  "keyfeatures": "Color: Classic White\r\n\r\nFit: Regular / Oversized (depending on your style)\r\n\r\nNeckline: Crew Neck\r\n\r\nFabric: 100% Cotton / Premium Cotton Blend\r\n\r\nSoft & breathable – perfect for all-day wear\r\nMedium thickness – not too light, not too heavy\r\nMachine washable – easy to care for, made for daily use"
+},
+{
+  "_id": {
+    "$oid": "68510bb4e6faf4c11cce8816"
+  },
+  "name": "Plaid Button-Up Shirt",
+  "price": 490,
+  "size": "S / M / L / XL / XXL (Please refer to the size chart for accurate fit)",
+  "image": "1750141876347.jpg",
+  "description": "Stay stylish with this classic plaid shirt – a timeless wardrobe essential made from soft, breathable fabric. Whether you're dressing for work, a weekend outing, or layering up for a casual look, this shirt offers the perfect blend of comfort and style. Suitable for both men and women.",
+  "keyfeatures": "Classic Plaid Pattern: A bold yet timeless design that adds personality to your outfit.\r\n\r\nComfortable Fit (Regular / Loose): Designed to suit all body types – wear it tucked or untucked.\r\n\r\nSoft & Breathable Fabric: Ensures all-day comfort and prevents overheating.\r\n\r\nFull Button-Down Front & Long Sleeves: Versatile styling options – wear it closed or layer over a t-shirt.\r\n\r\nPerfect for Any Occasion: Casual days, work, travel, or layering for streetwear looks.\r\n\r\nEasy Care: Machine washable, fade-resistant, holds shape after wash."
+},
+{
+  "_id": {
+    "$oid": "68510c9fe6faf4c11cce881b"
+  },
+  "name": "Skinny Jeans",
+  "price": 790,
+  "size": "28 / 30 / 32 / 34 / 36 / 38 (Refer to the size chart for best fit)",
+  "image": "1750142111059.jpg",
+  "description": "Step up your style with our classic skinny jeans – designed to fit close to the body for a sleek and modern look. Made from high-quality denim with a touch of stretch, these jeans offer comfort and style in one. Perfect for daily wear, work, or a casual night out.",
+  "keyfeatures": "Slim, Tapered Fit (Skinny Leg): Hugs your legs from thigh to ankle for a flattering silhouette.\r\n\r\nModern Design: Easily pairs with t-shirts, button-ups, or jackets for versatile styling.\r\n\r\nComfort Stretch Denim: Soft yet durable fabric with slight stretch for better movement.\r\n\r\nSturdy Zipper & Button Closure: Made to last, with smooth operation every time.\r\n\r\nFunctional Pockets (Front & Back): Practical and stylish with real usable pockets.\r\n\r\nAll-Occasion Wear: Great for work, weekends, or going out with friends."
+},
+{
+  "_id": {
+    "$oid": "68510d53e6faf4c11cce8824"
+  },
+  "name": "Denim Jacket",
+  "price": 990,
+  "size": "S / M / L / XL / XXL (Please refer to our size chart for exact measurements and best fit.)",
+  "image": "1750142291852.jpg",
+  "description": "Upgrade your wardrobe with this classic denim jacket – a timeless essential that never goes out of style. Made from high-quality denim, it’s designed for comfort, durability, and effortless cool. Whether you're layering over a t-shirt, hoodie, or dress, this jacket adds a stylish touch to any outfit. Perfect for both men and women.",
+  "keyfeatures": "Premium Denim Fabric: Made from high-quality denim that’s strong, durable, and comfortable to wear all day.\r\n\r\nClassic Design: Button-up front, pointed collar, and structured seams for a sleek, timeless silhouette.\r\n\r\nFunctional Pockets: Two chest flap pockets and two side pockets for added convenience.\r\n\r\nUnisex Fit: Suitable for both men and women; available in Regular or Oversized styles to match your look.\r\n\r\nVersatile Styling: Perfect for layering with t-shirts, shirts, hoodies, or dresses.\r\n\r\nAll-Season Wear: Great for spring, autumn, and even cool summer nights.\r\n\r\nEasy Care: Machine washable; maintains shape and color after washes."
+},
+{
+  "_id": {
+    "$oid": "68510e00e6faf4c11cce8829"
+  },
+  "name": "Long Pleated Skirt",
+  "price": 390,
+  "size": "Free Size / S / M / L / XL / XXL",
+  "image": "1750142464130.jpg",
+  "description": "Add elegance and movement to your wardrobe with this long pleated skirt – a flowy, feminine piece that offers both comfort and style. Made from lightweight fabric that drapes beautifully, this skirt is perfect for everyday wear or dressed-up occasions. Whether paired with a tucked-in blouse, a crop top, or a casual tee, it brings graceful flow and effortless charm to any look.",
+  "keyfeatures": "Elegant Pleated Design: Soft, defined pleats that flow beautifully with every step.\r\n\r\nLightweight & Breathable Fabric: Comfortable for all-day wear – perfect for warm or mild weather.\r\n\r\nElastic Waistband: Offers a secure, flexible fit that flatters your waist without feeling tight.\r\n\r\nVersatile Styling: Matches well with heels, sneakers, sandals, or boots – dress it up or down easily.\r\n\r\nModest & Feminine Length: Long design offers full coverage with a graceful silhouette.\r\n\r\nIdeal for Any Occasion: Casual outings, work, dates, brunch, or special events."
+},
+{
+  "_id": {
+    "$oid": "68510f81e6faf4c11cce882e"
+  },
+  "name": "Chiffon Sleeveless Top",
+  "price": 320,
+  "size": "S / M / L / XL / XXL",
+  "image": "1750142849968.jpg",
+  "description": "Light, elegant, and effortlessly chic – this chiffon sleeveless top is a must-have for warm weather or layered looks. Made from soft, breathable chiffon fabric, it offers a flowy silhouette that drapes beautifully on the body. Perfect for work, casual outings, or dressier occasions, this top adds a touch of feminine charm to any outfit.",
+  "keyfeatures": "Lightweight Chiffon Fabric: Soft, airy, and breathable – ideal for hot days or layering under blazers and cardigans.\r\n\r\nSleeveless Design: Keeps you cool while offering a sleek, polished appearance.\r\n\r\nFlowy Fit: Drapes beautifully for a flattering, relaxed look.\r\n\r\nVersatile Styling: Easily pairs with jeans, skirts, or tailored pants for both casual and dressy looks.\r\n\r\nAvailable in Multiple Colors: (Add your available colors here – e.g. white, black, beige, pastel pink)\r\n\r\nPerfect for Work or Weekend: Comfortable enough for daily wear, stylish enough for going out."
+},
+{
+  "_id": {
+    "$oid": "68510fa8e6faf4c11cce8831"
+  },
+  "name": "Black Fashion Hoodie",
+  "price": 650,
+  "size": "S / M / L / XL / XXL",
+  "image": "1750142888784.jpg",
+  "description": "Stay cozy and stylish with this black fashion hoodie – the perfect blend of comfort and streetwear cool. Made from soft, high-quality fabric, it offers a relaxed fit with a trendy silhouette. Whether you're layering up for casual outings, workouts, or just lounging at home, this hoodie delivers both warmth and effortless style.",
+  "keyfeatures": "Premium Soft Fabric: Cozy, breathable, and durable – perfect for all-day wear.\r\n\r\nClassic Hoodie Design: Adjustable drawstring hood and kangaroo front pocket for added functionality.\r\n\r\nTrendy Fit: Slightly oversized or regular fit options available to suit your style.\r\n\r\nRibbed Cuffs and Hem: Keeps the warmth in and ensures a snug fit.\r\n\r\nVersatile Black Color: Easily pairs with jeans, joggers, or shorts for any casual look.\r\n\r\nUnisex Style: Designed to fit comfortably on both men and women.\r\n\r\nEasy Care: Machine washable with colors that stay vibrant wash after wash."
+},
+{
+  "_id": {
+    "$oid": "68510fd6e6faf4c11cce8835"
+  },
+  "name": "Floral Dress",
+  "price": 720,
+  "size": "S / M / L / XL / XXL",
+  "image": "1750142934013.jpg",
+  "description": "Bring a fresh, feminine touch to your wardrobe with this beautiful floral dress. Featuring a vibrant floral print and a flattering silhouette, this dress is perfect for casual outings, garden parties, or special occasions. Made from lightweight, breathable fabric, it offers comfort and style all day long.",
+  "keyfeatures": "Beautiful Floral Pattern: Eye-catching design that adds charm and elegance.\r\n\r\nLightweight & Breathable Fabric: Keeps you cool and comfortable throughout the day.\r\n\r\nFlattering Fit: Designed to enhance your natural shape with a cinched waist or A-line cut.\r\n\r\nVersatile Styling: Perfect for pairing with sandals, heels, or casual sneakers.\r\n\r\nSuitable for Multiple Occasions: Casual wear, dates, parties, or vacations.\r\n\r\nEasy Care: Machine washable, maintains color and shape after washing."
+},
+{
+  "_id": {
+    "$oid": "6851100ce6faf4c11cce8839"
+  },
+  "name": "Men’s Navy Polo Shirt",
+  "price": 450,
+  "size": "S / M / L / XL / XXL",
+  "image": "1750143014007.jpg",
+  "description": "Elevate your casual wardrobe with this classic men’s navy polo shirt. Made from soft, breathable fabric, it offers a comfortable fit that’s perfect for everyday wear, work, or weekend outings. The timeless design features a neat collar and button placket, combining style with versatility.",
+  "keyfeatures": "Premium Cotton Blend: Soft, breathable, and durable for all-day comfort.\r\n\r\nClassic Polo Design: Ribbed collar and three-button placket for a polished look.\r\n\r\nTailored Fit: Provides a modern silhouette without sacrificing comfort.\r\n\r\nVersatile Navy Color: Easy to pair with jeans, chinos, or shorts.\r\n\r\nDurable Stitching: Ensures long-lasting wear and shape retention.\r\n\r\nEasy Care: Machine washable, resistant to shrinking and fading."
+},
+{
+  "_id": {
+    "$oid": "6851104fe6faf4c11cce8841"
+  },
+  "name": "Stretch Fabric Sweatpants",
+  "price": 380,
+  "size": "S / M / L / XL / XXL",
+  "image": "1750143055819.jpg",
+  "description": "Experience ultimate comfort and flexibility with these stretch fabric sweatpants. Designed for active lifestyles and casual wear, these sweatpants feature a soft, stretchy material that moves with you. Perfect for workouts, lounging at home, or running errands, they combine practicality with a modern, sleek look.",
+  "keyfeatures": "High-Quality Stretch Fabric: Soft, breathable, and flexible for unrestricted movement.\r\n\r\nElastic Waistband with Drawstring: Adjustable fit for added comfort and security.\r\n\r\nTapered Leg Design: Offers a stylish, streamlined silhouette.\r\n\r\nFunctional Pockets: Convenient side pockets for essentials.\r\n\r\nDurable Stitching: Built to withstand frequent wear and washing.\r\n\r\nVersatile Use: Ideal for gym, outdoor activities, or casual everyday wear."
+}]
