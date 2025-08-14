@@ -94,6 +94,3 @@ npm start
 อีเมล: jsaroen66@gmail.com
 GitHub: github.com/JaroenGit
 ```
-
-
-# My_Project_Node.js
