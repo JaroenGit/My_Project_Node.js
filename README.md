@@ -2,7 +2,9 @@
 Introduction
 ---
 ```
-This project is a basic full-stack product management system developed using Node.js and Express.js for the backend, EJS (Embedded JavaScript) as the server-side template engine for frontend rendering, and MongoDB with Mongoose for database management. The system also integrates Multer to handle product image uploads.
+This project is a basic full-stack product management system developed using Node.js and Express.js for the backend,
+EJS (Embedded JavaScript) as the server-side template engine for frontend rendering, and MongoDB with Mongoose for database management.
+The system also integrates Multer to handle product image uploads.
 ```
 ## 🧰 Installation and Configuration
 package.json dependencies:
