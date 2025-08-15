@@ -86,7 +86,7 @@ npm start
 
 # ✍️ Developer Information
 ```
-Full Name : Jaroen Sukcharoenchaiyakul
+Name : Jaroen Sukcharoenchaiyakul
 Gmail : jsaroen66@gmail.com
 GitHub: github.com/JaroenGit
 ```
