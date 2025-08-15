@@ -1,8 +1,11 @@
-# Project_Node.js+Express.js+EJS+ MongoDB
-ระบบจัดการสินค้าแบบ Fullstack พื้นฐาน พัฒนาโดยใช้ Node.js และ Express.js ฝั่ง Backend และใช้ EJS แสดงผลฝั่ง Frontend พร้อมรองรับการอัปโหลดรูปภาพด้วย `multer`
+# Product Management System (Node.js + Express.js + EJS + MongoDB)
+Introduction
 ---
-## 🧰 การตั้งค่า / Packages ที่ใช้
-
+```
+This project is a basic full-stack product management system developed using Node.js and Express.js for the backend, EJS (Embedded JavaScript) as the server-side template engine for frontend rendering, and MongoDB with Mongoose for database management. The system also integrates Multer to handle product image uploads.
+```
+## 🧰 Installation and Configuration
+package.json dependencies:
 ```json
 "dependencies": {
   "ejs": "3.1.10",
@@ -13,85 +16,75 @@
 }
 ```
 
-## ⚙️ Tech Stack
+## ⚙️Tools and Technologies
 
-| เทคโนโลยี                | รายละเอียด                      |
-| ------------------------ | ------------------------------- |
-| **Node.js + Express.js** | ใช้เป็น Web Server และ Routing  |
-| **MongoDB + Mongoose**   | จัดการฐานข้อมูลแบบ NoSQL        |
-| **EJS**                  | Template Engine สำหรับแสดง HTML |
-| **Multer**               | จัดการอัปโหลดรูปภาพ             |
-| **Bootstrap / CSS**      | ใช้ตกแต่ง UI ผ่านไฟล์ static    |
+| Technology                | Functionality Description                                                    |
+| ------------------------ | ------------------------------------------------------------ |
+| **Node.js + Express.js** | Serves as the web server and handles routing requests and responses  |
+| **MongoDB + Mongoose**   | Stores and manages product data using a NoSQL database structure                           |
+| **EJS**                  | Renders HTML content dynamically on the server side     |
+| **Multer**               | Manages image uploads and stores them in a designated directory                              |
+| **Bootstrap / CSS**      | Provides responsive UI design and styling for the application interface                   |
 
-## ชุดฐานข้อมูล
+## Database Setup
 ```
-    - ทำการ import ไฟล์ productDB.product.json ไปใช้ใน MongoDB
-    - MongoDB สามารถสร้างฐานข้อมูลขึ้นได้เอง หากยังไม่มีฐานข้อมูล 
-      แต่ตรวจเช็ดการตั้งค่า 'localhost:27017/productDB' ตามที่อยู่ใน MongoDB
-```
-
-## 📦 Features
-```
-    - แสดงรายการสินค้า (พร้อมรูปภาพ)
-    - เพิ่มสินค้าใหม่ พร้อมอัปโหลดภาพ
-    - ลบสินค้า
-    - ดูรายละเอียดสินค้าทีละชิ้น
-    - ใช้ MongoDB/Mongoose สำหรับเก็บข้อมูล
-    - ใช้ EJS แสดงผลหน้า HTML
-    - bootstrap/CSS แยกไฟล์ผ่าน `/public`
-    - รองรับได้ทุกขนาดหน้าจอ
+    - Import the productDB.product.json file into MongoDB.
+    - If the database does not exist, MongoDB will automatically create it upon first access.
+    - Verify that the connection URL is set to localhost:27017/productDB.
 ```
 
-
-## 📁 Project Structure
+## 📁Project Structure
 ```
 project_node_js/
-├── models/               # Mongoose Schema
+├── models/               # Mongoose Schemas
 │   └── product.js
-├── routes/               # Routing
+├── routes/               # Routing files
 │   └── myrouter.js
-├── views/                # ไฟล์ EJS Template
-│   ├── index.ejs         # หน้าแสดงรายการ
-│   ├── insert.ejs        # ฟอร์มเพิ่มสินค้า
-│   ├── show.ejs          # แสดงรายละเอียดสินค้า
-│   └── header.ejs        # Header แยกไว้เรียกใช้รวม
-│   └── edit.ejs          # แก้ใขข้อมูล
-│   └── tabledata.ejs     # แสดงข้อมูลในรูปแบบตาราง
-├── public/               # ไฟล์ Static เช่น CSS, รูปภาพ
-│   ├── css/              # ไฟล์ตกแต่ง
-│   └── img/products/     # รูปสินค้าที่อัปโหลด
-├── app.js                # จุดเริ่มต้นของแอป
+├── views/                # EJS templates
+│   ├── index.ejs         # Product list view
+│   ├── insert.ejs        # Product creation form
+│   ├── show.ejs          # Product detail page
+│   ├── header.ejs        # Reusable header template
+│   ├── edit.ejs          # Product editing form
+│   └── tabledata.ejs     # Product table layout
+├── public/               # Static files (CSS, images)
+│   ├── css/              # Stylesheets
+│   └── img/products/     # Uploaded product images
+├── app.js                # Application entry point
 └── package.json
 ```
 
-## Usage(การใช้งาน)
+## System Features
 ```
-🔹 แสดงสินค้าเข้าเว็บไซต์ที่ /
-    จะแสดงรายการสินค้าทั้งหมดพร้อมรูปภาพ
-
-🔹 เพิ่มสินค้าใหม่ /insert
-    กรอก name, price, size, description และเลือกรูปภาพกดปุ่ม "บันทึก"
-
-🔹 ดูรายละเอียดสินค้า
-    คลิกปุ่ม "เพิ่มเติม" หรือ "Read More" ข้อมูลจะแสดงจาก product._id ที่ query มาจาก MongoDB
-
-🔹 ลบสินค้า
-    ใช้ <form method="POST" action="/delete/:id"> มี confirm() ยืนยันก่อนลบจริง
-    ข้อมูลจะถูกลบจาก MongoDB
+  Product Listing — Displays all products with associated images.
+  Add New Product — Users can input product details, upload an image, and store data in the database.
+  Delete Product — Supports product deletion with confirmation prompts to prevent accidental removal.
+  View Product Details — Retrieves detailed information using the product's _id from MongoDB.
+  UI Styling — Uses Bootstrap and custom CSS files stored in /public for responsive and user-friendly design.
+```
+## System Usage
+```
+  - Home Page (/) Displays all products in the database along with their images.
+  - Add Product (/insert) Form for entering name, price, size, description, and selecting an image file before clicking "Save."
+  - View Product Details Click the "See More" button to view detailed product information.
+  - Delete Product (/delete/:id) Sends a POST request to remove the selected product from the database after user confirmation.
 ```
 
 # Run the server
 ```
+# Run with Node.js
 node app.js
-หรือสามารถใช้ nodemon เพื่อรันทันทีโดยไม่ต้อง restart ทุกครั้ง
-โดนใช้ npx nodemon app.js
-# หรือตั้งค่า script ไปไว้ใน package.json เพื่อให้สั้นลง
+
+# Run with Nodemon (auto-restart on file changes)
+npx nodemon app.js
+
+# Or configure a script in package.json
 npm start
 ```
 
-# ✍️ ผู้พัฒนา
+# ✍️ Developer Information
 ```
-ชื่อ-นามสุกล: เจริญ ศักดิ์เจริญชัยกุล 
-อีเมล: jsaroen66@gmail.com
+Full Name : Jaroen Sukcharoenchaiyakul
+Gmail : jsaroen66@gmail.com
 GitHub: github.com/JaroenGit
 ```
